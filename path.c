@@ -95,7 +95,7 @@ int find_path(int n, int m, int A[], int i, int j, int k, int l, int path [][2])
   }
   return L;
 }
-/* This is the way i tested the code...*
+/*This is the way i tested the code...*/
 int main() {
   int n = 3, m = 4, i= 0, j = 0, k = 1, l = 0;
   // int A[3*4] = {0,1,0,0,1,0,0,1,1,0,1,0};
@@ -110,10 +110,10 @@ int main() {
   for (int i = 0; i < 30; i += 1) {
     printf("(%d, %d)\n", path[i][0], path[i][1]);
   }
+  }
 
 
   // printf("\n=\n%d\n=\n", find_path(3, 4,  A,  1,  1,  0,  3, path));
   // for (int i = 0; i < 12; i += 1) {
   //   printf("(%d, %d)\n", path[i][0], path[i][1]);
   // }
-}*/
